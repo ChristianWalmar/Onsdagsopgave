@@ -9,10 +9,10 @@ class MainTest {
 
     //ARRANGE
     Main main = new Main();
-    int expected = 7;
+    int expected = 4;
 
     //ACT
-    int actual = main.karakter();
+    int actual = main.karakter("dansk");
 
     //ASSERT
     assertEquals(expected, actual);
